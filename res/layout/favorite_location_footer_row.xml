@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical"
+	android:layout_height="50dp"
+	android:layout_width="fill_parent"
+	android:clickable="true"
+	 android:background="@drawable/list_item_background_selector">
+        <TextView
+      	android:id="@+id/TextViewFooterText"
+        android:textSize="16dp"
+        android:textStyle="bold"
+        android:textColor="#fff"
+        android:text="Add selected location to favorites"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:gravity="center_vertical"
+        android:padding="10dp"
+       
+        />
+</LinearLayout>
